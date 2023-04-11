@@ -17,6 +17,7 @@ def fibonacci(number):
         fibonacci_numbers.append(total)
         print("fibonacci_numbers " + str(fibonacci_numbers))
         print("total " + str(total))
+        
     return total
 def fibonacci_1(number):
     if number <= 1:
