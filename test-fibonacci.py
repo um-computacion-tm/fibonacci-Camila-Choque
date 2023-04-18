@@ -2,6 +2,7 @@ import unittest
 from fibonacci import fibonacci 
 
 
+
 class TestFibonacci(unittest.TestCase):
     def test_1(self):
         self.assertEqual(1, fibonacci(1))
@@ -20,6 +21,7 @@ class TestFibonacci(unittest.TestCase):
 
     def test_6(self):
         self.assertEqual(8,fibonacci(6))
+        
 
 if __name__ == '__main__':
     unittest.main()

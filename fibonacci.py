@@ -13,10 +13,10 @@ def fibonacci(number):
             fibonacci_numbers[-2] +
             fibonacci_numbers[-1]
         )
-
         fibonacci_numbers.append(total)
         print("fibonacci_numbers " + str(fibonacci_numbers))
         print("total " + str(total))
+       
         
     return total
 def fibonacci_1(number):
